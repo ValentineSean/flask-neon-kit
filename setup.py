@@ -15,7 +15,7 @@ with open("README.rst", "r", encoding="utf-8") as fh:
 
 setup(
     name="flask-neon-kit",
-    version="0.0.3",
+    version="0.0.6",
     description="Automatically generates Flask CRUD endpoints from defined Neon Postgres models",
     long_description=long_description,
     long_description_content_type="text/x-rst",
@@ -43,7 +43,8 @@ setup(
         "Jinja2==3.1.4",
         "Mako==1.3.5",
         "MarkupSafe==2.1.5",
-        "psycopg2==2.9.9",
+        "psycopg2-binary==2.9.9",
+        "wheel==0.44.0",
         "SQLAlchemy==2.0.32",
         "typing_extensions==4.12.2",
         "Werkzeug==3.0.4",
