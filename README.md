@@ -63,7 +63,6 @@ pip install flask-neon-kit
 
     # Database related part
     db.init_app(app)
-    # migrate = Migrate(app, db)
 
     flask_neon_kit = FlaskNeonKit()
     flask_neon.init_app(app, request, db)
