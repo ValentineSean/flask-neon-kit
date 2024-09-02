@@ -15,7 +15,7 @@ with open("README.rst", "r", encoding="utf-8") as fh:
 
 setup(
     name="flask-neon-kit",
-    version="0.0.1",
+    version="0.0.3",
     description="Automatically generates Flask CRUD endpoints from defined Neon Postgres models",
     long_description=long_description,
     long_description_content_type="text/x-rst",

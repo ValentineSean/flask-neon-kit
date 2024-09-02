@@ -191,7 +191,7 @@ class FlaskNeonKit(object):
                             elif limit is None and page:
                                 limit = 5
                             
-                            entities = model_class.query.paginate(page=int(page), limit=int(limit), error_out=False)
+                            entities = model_class.query.paginate(page=int(page), per_page=int(limit), error_out=False)
                             has_next = entities.has_next
                             has_prev = entities.has_prev
                             total = entities.total
